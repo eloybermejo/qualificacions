@@ -19,7 +19,7 @@ class ModulProfessional:
     def __init__(self, nom):
         self.nom = nom
 
-    def afegirUnitatFormativa(self, unitat_formativa):
+    def afegir_unitat_formativa(self, unitat_formativa):
         self.unitats_formatives.append(unitat_formativa);
 
     def getQualificacio(self):
@@ -44,9 +44,9 @@ uf3.qualificacio = 4
 
 mp5 = ModulProfessional("MP05. Entorns de desenvolupament")
 
-mp5.afegirUnitatFormativa(uf1)
-mp5.afegirUnitatFormativa(uf2)
-mp5.afegirUnitatFormativa(uf3)
+mp5.afegir_unitat_formativa(uf1)
+mp5.afegir_unitat_formativa(uf2)
+mp5.afegir_unitat_formativa(uf3)
 
 print(uf1.nom, ":", uf1.qualificacio)
 print(uf2.nom, ":", uf2.qualificacio)
